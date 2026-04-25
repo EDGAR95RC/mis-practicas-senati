@@ -1,0 +1,7 @@
+cd ~/senati-test
+echo "## Mi trabajo de Senati" >> README.md
+git add README.md
+git commit -m "Actualizo README"
+git push
+
+ssh-keygen -t ed25519 -C "ramirez95rc@gmail.com"
